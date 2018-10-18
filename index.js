@@ -13,6 +13,6 @@ function renderBooks(json) {
 
 document.addEventListener('DOMContentLoaded', function() {
   fetchBooks(){
-    fetch("")
+    fetch("https://anapioficeandfire.com/api/books")
   }
 })
