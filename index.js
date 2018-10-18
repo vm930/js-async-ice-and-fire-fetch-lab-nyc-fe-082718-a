@@ -24,7 +24,7 @@ The 1031st character in the series*/
   }
   
 function fetchFifthBook () {
-  fetch("https://anapioficeandfire.com/api/books")
+  fetch("https://anapioficeandfire.com/api/books/5")
   .then(resp => resp.json())
   .then(json =>
   renderFifthBook(json))
