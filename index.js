@@ -17,7 +17,7 @@ function renderFifthBook(json) {
 
 function render1031Character(json){
   const h2 = document.createElement("h2")
-  h2.innerHTML = `<h2>${json.characters}</h2>`
+  h2.innerHTML = `<h2>${json.}</h2>`
   main.appendChild(h2)
 }
 
