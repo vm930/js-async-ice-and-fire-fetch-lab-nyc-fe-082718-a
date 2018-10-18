@@ -27,7 +27,7 @@ function fetchFifthBook () {
   fetch("https://anapioficeandfire.com/api/books")
   .then(resp => resp.json())
   .then(json =>
-  renderBooks(json))
+  renderFifthBook(json))
 }
 
 function fetch1031stCharacter () {
