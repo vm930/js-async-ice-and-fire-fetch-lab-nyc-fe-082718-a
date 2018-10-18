@@ -1,6 +1,3 @@
-function fetchBooks() {
-  //write fetch request to the Game of Thrones API
-}
 
 function renderBooks(json) {
   const main = document.querySelector('main')
@@ -11,6 +8,8 @@ function renderBooks(json) {
   })
 }
 
+
+function fetchBooks() {
 /*All the Houses in Game of Thrones
 The 5th book in the series
 The 1031st character in the series*/
@@ -22,3 +21,4 @@ document.addEventListener('DOMContentLoaded', function() {
     .then(json =>
     renderBooks(json)
   }
+}
