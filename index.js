@@ -13,14 +13,15 @@ function fetchBooks() {
 /*All the Houses in Game of Thrones
 The 5th book in the series
 The 1031st character in the series*/
-
-document.addEventListener('DOMContentLoaded', function() {
-  fetchBooks(){
     fetch("https://anapioficeandfire.com/api/houses")
     .then(resp => resp.json())
     .then(json =>
     renderBooks(json)
-  })
+  }
+
+document.addEventListener('DOMContentLoaded', function() {
+  fetchBooks()
+  
 }
 
 
