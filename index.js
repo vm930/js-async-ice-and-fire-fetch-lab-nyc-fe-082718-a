@@ -10,7 +10,7 @@ function renderBooks(json) {
 
 function renderFifthBook(json) {
   // 
-  console.log(json);
+  console.log(json.books);
 }
 
 function fetchBooks() {
