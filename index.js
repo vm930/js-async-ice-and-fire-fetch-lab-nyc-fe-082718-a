@@ -9,8 +9,8 @@ function renderBooks(json) {
 }
 
 function renderFifthBook(json) {
-  const main = document.querySelector("main")
-  json.book
+  // 
+  console.log(json);
 }
 
 function fetchBooks() {
