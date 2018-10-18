@@ -26,7 +26,7 @@ function fetchFifthBook () {
   renderBooks(json))
 }
 
-function fetchFifthBook () {
+function fetch1031stCharacter () {
   fetch("https://anapioficeandfire.com/api/houses")
   .then(resp => resp.json())
   .then(json =>
@@ -36,5 +36,5 @@ function fetchFifthBook () {
 document.addEventListener('DOMContentLoaded', function() {
   fetchBooks()
   fetchFifthBook()
-  
+  fetch1031stCharacter()
 })
