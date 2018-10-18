@@ -27,7 +27,7 @@ function fetchFifthBook () {
 }
 
 function fetch1031stCharacter () {
-  fetch("https://anapioficeandfire.com/api/houses")
+  fetch("https://anapioficeandfire.com/api/characters/1031")
   .then(resp => resp.json())
   .then(json =>
   renderBooks(json))
