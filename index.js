@@ -18,7 +18,23 @@ The 1031st character in the series*/
     .then(json =>
     renderBooks(json))
   }
+  
+function fetchFifthBook () {
+  fetch("https://anapioficeandfire.com/api/houses")
+  .then(resp => resp.json())
+  .then(json =>
+  renderBooks(json))
+}
+
+function fetchFifthBook () {
+  fetch("https://anapioficeandfire.com/api/houses")
+  .then(resp => resp.json())
+  .then(json =>
+  renderBooks(json))
+}
 
 document.addEventListener('DOMContentLoaded', function() {
   fetchBooks()
+  fetchFifthBook()
+  
 })
