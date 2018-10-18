@@ -8,6 +8,10 @@ function renderBooks(json) {
   })
 }
 
+function renderFifthBook(json) {
+  const main = document.querySelector("main")
+  json.book
+}
 
 function fetchBooks() {
 /*All the Houses in Game of Thrones
@@ -20,7 +24,7 @@ The 1031st character in the series*/
   }
   
 function fetchFifthBook () {
-  fetch("https://anapioficeandfire.com/api/books/5")
+  fetch("https://anapioficeandfire.com/api/books")
   .then(resp => resp.json())
   .then(json =>
   renderBooks(json))
