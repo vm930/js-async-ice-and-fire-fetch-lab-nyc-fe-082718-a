@@ -19,6 +19,6 @@ document.addEventListener('DOMContentLoaded', function() {
     fetch("https://anapioficeandfire.com/api/houses")
     .then(resp => resp.json())
     .then(json =>
-    renderBooks(json)
-  }
+    renderBooks(json)}
+  })
 }
