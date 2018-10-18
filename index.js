@@ -15,6 +15,12 @@ function renderFifthBook(json) {
   // console.log(json.name);
 }
 
+function render1031Character(json){
+  const h2 = document.createElement("h2")
+  
+}
+
+
 function fetchBooks() {
 /*All the Houses in Game of Thrones
 The 5th book in the series
