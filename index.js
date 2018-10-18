@@ -26,6 +26,16 @@ function fetchBooks() {
 /*All the Houses in Game of Thrones
 The 5th book in the series
 The 1031st character in the series*/
+    fetch("https://anapioficeandfire.com/api/books")
+    .then(resp => resp.json())
+    .then(json =>
+    renderBooks(json))
+  }
+
+function fetchHouses() {
+/*All the Houses in Game of Thrones
+The 5th book in the series
+The 1031st character in the series*/
     fetch("https://anapioficeandfire.com/api/houses")
     .then(resp => resp.json())
     .then(json =>
