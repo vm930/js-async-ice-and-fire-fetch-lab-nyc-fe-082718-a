@@ -21,7 +21,4 @@ The 1031st character in the series*/
 
 document.addEventListener('DOMContentLoaded', function() {
   fetchBooks()
-  
-}
-
-
+})
